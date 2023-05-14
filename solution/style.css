@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    height: 115px;
+    width: 100%;
+    padding: 16px;
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+    display: block;
+}
+
+.header__image{
+    width: 60px;
+}
+
+section{
+    display: inline-block;
+    float:right;
+    padding-top: 40px;
+    padding-right: 20px;
+
+}
+.header__link{
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    font-weight: 700;
+}
+
+.header__link:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+    text-align: center;
+    padding:2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.nav--link{
+    font-family: 'DynaPuff', cursive;
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.nav--link:hover{
+    color: white;
+}
+
+/* ======================= */
+
+
+.div__image{
+    width: 100%;
+    
+}
+
+.div{
+    position: relative;
+}
+.section{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: block;
+}
+.div__section--title1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.div__section--title2{
+    color: red;
+    /* text-shadow: 2px 2px 2px 0 black; */
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.div__section--button{
+    border: none;
+    border-radius: 10px;
+    background-color: pink;
+    padding: 5px;
+    width: 80px;
+    font-weight: 700;
+    
+}
+.div__section--button:hover{
+    background-color: rgb(237, 124, 143);
+}
+
+
+/* ================= */
+
+.slack i {
+    position: fixed;
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    bottom: 2rem;
+    right: 2rem;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    /* padding-top: 0.4rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

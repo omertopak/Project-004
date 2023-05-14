@@ -24,10 +24,6 @@ Project aims to create a website page.
         |----style.css   
 ```
 
-## Expected Outcome
-
-![Project Snapshot](./project.gif)
-
 
 ## Objective
 
